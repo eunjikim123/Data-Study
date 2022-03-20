@@ -20,4 +20,5 @@ for course in course:
     result += [k for k,v in most_ordered if v != 1 and v == most_ordered[0][1]]
     
 result = [''.join(v) for v in sorted(result)]
-#print(result)
+print(result)
+print("end")
