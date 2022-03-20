@@ -21,3 +21,4 @@ for course in course:
     
 result = [''.join(v) for v in sorted(result)]
 print(result)
+print("end")
